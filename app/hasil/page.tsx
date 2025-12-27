@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useSearchParams } from "next/navigation"
 
 export const dynamic = 'force-dynamic'
+import { useSearchParams } from "next/navigation"
 import StudentSidebar from "@/components/student-sidebar"
 import Footer from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
